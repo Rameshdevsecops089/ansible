@@ -1,5 +1,5 @@
 - name: conditions demo
-  hosts: localhost
+  hosts: local
   connection: local
   vars: 
     NUMBERS: 78

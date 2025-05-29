@@ -21,6 +21,5 @@
   - name: hello from play 2 and task2
     ansible.builtin.debug:
       msg: "Hello from PLAY-2 and TASK-2"
-      
 
 

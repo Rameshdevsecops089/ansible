@@ -1,4 +1,4 @@
-- name: gathering facts all data
+- name: gathering facts
   hosts: local
   connection: local
   tasks:

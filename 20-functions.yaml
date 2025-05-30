@@ -29,7 +29,7 @@
 
   - name: convert to lowercase
     vars:
-      name: " Ramesh kumar"
+      name: "Ramesh kumar"
     anisible.builtin.debug:
       msg: "Hello {{ name | lower }}"
 

@@ -10,5 +10,6 @@
 
   - name: print names
     ansible.builtin.debug:
-      msg: "Hello {{ Persons | split(',')}}"
+      msg: "Hello {{ persons | split(',')}}"
+      
 

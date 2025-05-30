@@ -1,7 +1,7 @@
 - name: functions
   hosts: local
   connection: local
-  var:
+  vars:
     persons: "Ramesh,Suresh,Raheem,Joseph"
   tasks:
   - name: check undefined variable
